@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA DE REGALOS "SURPRISE!"</title>
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="shortcut icon" href="./imagenes/gift.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="./index.html"><img src="./imagenes/surprise.png" alt="imagen de la tienda" height="175px"></a>
+            <h1>SURPRISE!</h1>
+            <h1>Regalos y Detalles</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="products.html">PRODUCTOS</a></li>
+            <li><a href="contacts.html">CONTACTOS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article id="contact">
+                <h2>¡CONTÁCTANOS!</h2>
+                <p><strong>Whatsapp:</strong> 913579248</p>
+                <p><strong>Correo electrónico:</strong> contacto@surprise.com</p>
+                <p><strong>Instagram:</strong> instagram.com/regalos_surprise</p>
+            </article>
+            <article>
+                <h2>¡UBÍCANOS!</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.91819245891728!2d-77.52171512718485!3d-9.535545079739837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a90d47f640a227%3A0x2b002b326d92304b!2sREGALOS%20Y%20DETALLES%20SURPRISE*21!5e0!3m2!1ses-419!2spe!4v1698121285123!5m2!1ses-419!2spe" width="600px" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+        <aside>
+            <h2>BUZÓN DE SUGERENCIAS</h2>
+            <form action="registro.php" method="post">
+                <input type="text" placeholder="Ingresar nombre" required>
+                <input type="text" placeholder="Ingresar apellidos" required>
+                <input type="text" placeholder="Ingresar DNI" required maxlength="8" minlength="0" required>
+                <label for="product">¿Qué prefieres comprar en nuestra tienda? </label>
+                <select id="product">
+                    <option value="selec">- - SELECCIONAR - -</option>
+                    <option value="arreglo">Arreglos</option>
+                    <option value="funko">Funko Pop</option>
+                    <option value="peluche">Peluches</option>
+                    <option value="taza">Tazas</option>
+                    <option value="otros">Otros</option>
+                </select>
+                <label for="detail">¿Qué sugieres para mejorar nuestro servicio?</label>
+                <textarea id="detail" cols="50" rows="10"></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados  |  DISEÑADO POR: Laura Romero</p>
+    </footer>
+</body>
+</html>
